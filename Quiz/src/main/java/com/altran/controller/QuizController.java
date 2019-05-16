@@ -15,6 +15,7 @@ import com.altran.service.QuizService;
 @RestController
 public class QuizController {
 	
+	// test second commit
 	@Autowired
 	private QuizService quizService;
 	
