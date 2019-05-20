@@ -5,7 +5,7 @@ import java.util.List;
 import com.altran.model.Quiz;
 
 public interface QuizService {
-	
+
 	List<Quiz> findAll();
 	
 	Quiz findByQuizId(Long id);
@@ -17,6 +17,5 @@ public interface QuizService {
 	Quiz update(Long id, Quiz quiz);
 	
 	void delete(Long id);
-	
 
 }
